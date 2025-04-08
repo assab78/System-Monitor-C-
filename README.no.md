@@ -38,7 +38,7 @@ make
 ### Metode 2: Med installasjonsskript
 ```bash
 # Last ned kildekode
-git clone System-Monitor-C.git
+git clone https://github.com/assab78/System-Monitor-C-.git
 cd System-Monitor-C
 
 # Kjør installasjonsskriptet
