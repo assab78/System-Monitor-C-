@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3498db;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#gradient1)" />
+  
+  <!-- CPU Icon -->
+  <rect x="39" y="39" width="50" height="50" rx="4" ry="4" fill="#ecf0f1" />
+  <rect x="44" y="44" width="40" height="40" rx="2" ry="2" fill="#34495e" />
+  <rect x="49" y="49" width="30" height="30" rx="1" ry="1" fill="#2c3e50" />
+  
+  <!-- Graph Lines -->
+  <polyline points="54,69 59,63 64,68 69,58 74,64" 
+            stroke="url(#gradient2)" stroke-width="3" fill="none" />
+  
+  <!-- Notification Bell -->
+  <path d="M88,38 C88,34 84,30 80,30 C76,30 72,34 72,38 L88,38 Z" fill="#f1c40f" />
+  <path d="M80,22 C81.1,22 82,22.9 82,24 L82,26 C87,27 91,32 91,38 L91,49 L69,49 L69,38 C69,32 73,27 78,26 L78,24 C78,22.9 78.9,22 80,22 Z" 
+        fill="#f1c40f" stroke="#e67e22" stroke-width="1.5" />
+  
+  <!-- Pulse Effect -->
+  <circle cx="80" cy="38" r="15" fill="none" stroke="#f1c40f" stroke-width="2" opacity="0.5">
+    <animate attributeName="r" from="15" to="25" dur="1.5s" begin="0s" repeatCount="indefinite" />
+    <animate attributeName="opacity" from="0.5" to="0" dur="1.5s" begin="0s" repeatCount="indefinite" />
+  </circle>
+</svg>
