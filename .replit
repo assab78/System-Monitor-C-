@@ -1,0 +1,33 @@
+modules = ["cpp"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "System Monitor"
+
+[[workflows.workflow]]
+name = "System Monitor"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "bash -c \"make && ./bin/system-monitor\""
+
+[deployment]
+run = ["sh", "-c", "bash -c \"chmod +x install.sh && make && ./bin/system-monitor\""]
