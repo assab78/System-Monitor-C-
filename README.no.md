@@ -22,8 +22,8 @@ Systemressursovervåker er et skrivebordsprogram for Linux som overvåker system
 ### Metode 1: Fra kildefiler
 ```bash
 # Klone kildekodearkivet
-git clone https://github.com/username/systemressursovervaker.git
-cd systemressursovervaker
+git clone https://github.com/assab78/System-Monitor-C-.git
+cd System-Monitor-C
 
 # Installer avhengigheter
 sudo apt-get install build-essential libgtk-3-dev libnotify-dev pkg-config
@@ -38,8 +38,8 @@ make
 ### Metode 2: Med installasjonsskript
 ```bash
 # Last ned kildekode
-git clone https://github.com/username/systemressursovervaker.git
-cd systemressursovervaker
+git clone System-Monitor-C.git
+cd System-Monitor-C
 
 # Kjør installasjonsskriptet
 sudo ./install.sh
