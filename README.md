@@ -14,6 +14,11 @@ A C++ desktop application for Linux that monitors system resources (CPU, RAM, di
 ## Screenshots
 
 *The application features a clean, intuitive interface with real-time graphs showing resource usage.*
+<img width="394" alt="{DE09443E-3B54-47D2-AEDA-74CAD09D7D51}" src="https://github.com/user-attachments/assets/a417026a-f12e-486a-a04b-e59eaba5e11c" />
+
+<img width="399" alt="{7C08782E-FC8A-4FE4-BE9D-289F44D0823D}" src="https://github.com/user-attachments/assets/8c1ca73a-5598-409d-81fe-1f12685bc8c9" />
+
+
 
 ## Requirements
 
